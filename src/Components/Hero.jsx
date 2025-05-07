@@ -23,7 +23,7 @@ const Hero = () => {
     try {
       setLoading(true);
       const response = await fetch(
-        `https://api.unsplash.com/photos/random?count=6&client_id=${accessKey}`
+        `https://api.unsplash.com/photos/random?count=60&client_id=${accessKey}`
       );
 
       if (!response.ok) {
